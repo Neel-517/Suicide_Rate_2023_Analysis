@@ -1,5 +1,5 @@
 /* 
-Suicde Rates 2023 data exploration
+Suicide Rates 2023 data exploration
 
 Skills used: Aggregate Functions, Sorting, Limits, Filtering, SELECT Statements, Column Aliasing 
 
@@ -14,7 +14,7 @@ SELECT * FROM world_suicide_rate_2023;
 
 -- Analyzing data
 
--- Top 10 countries with highest male suicide rates 
+-- Top 10 countries with the highest male suicide rates 
 
 SELECT country, male FROM world_suicide_rate_2023
 WHERE country != 'world'
@@ -22,7 +22,7 @@ ORDER BY male DESC
 LIMIT 10;
 
 
--- Top 10 countries with highest female suicide rates
+-- Top 10 countries with the highest female suicide rates
 
 SELECT country, female FROM world_suicide_rate_2023
 WHERE country != 'world'
@@ -30,7 +30,7 @@ ORDER BY female DESC
 LIMIT 10;
 
 
--- Top 10 countries with highest combined suicide rates
+-- Top 10 countries with the highest combined suicide rates
 
 SELECT country, `all` FROM world_suicide_rate_2023
 WHERE country != 'world'
