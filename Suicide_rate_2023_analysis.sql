@@ -1,13 +1,10 @@
 /* 
-Suicide Rates 2023 data exploration
+Suicide Rates 2023 Data Exploration
 
-Skills used: Aggregate Functions, Sorting, Limits, Filtering, SELECT Statements, Column Aliasing 
-
-\*
+Skills used: Aggregate Functions, Sorting, Limits, Filtering, SELECT Statements, ORDER BY, Column Aliasing, Case use 
 
 
 -- Viewing entire data 
-
 
 SELECT * FROM world_suicide_rate_2023;
 
@@ -53,10 +50,24 @@ WHERE country != 'world'
 ORDER BY `M/F` DESC;
 
 
--- Countries with the highest/lowest change% in suicide rates
+-- Countries have an increase or decrease in suicide rates as a percentage
 
-SELECT country, `All` AS `2023`, `2000`, CONCAT(`change%`, '%') AS `change%`
+SELECT country, `All` AS `2023`, `2000`, CONCAT(ROUND(((`All` - `2000`) / `2000`) * 100), '%') AS `change% 2000 to 2023`,
+CASE 
+WHEN ((`All` - `2000`) / `2000`) * 100 > 0 THEN 'Increase'
+WHEN ((`All` - `2000`) / `2000`) * 100 < 0 THEN 'Decrease'
+ELSE 'No Change'
+END AS `Change`
+FROM world_suicide_rate_2023;
+
+
+-- Countries that have positive or negative trends in suicide rates 
+
+SELECT country, `All` AS `2023`, `2000`, 
+CASE 
+WHEN `All` > `2000` THEN 'Negative'
+WHEN `All` < `2000` THEN 'Positive'
+ELSE 'No Change'
+END AS Trend
 FROM world_suicide_rate_2023
-WHERE country != 'world' 
-ORDER BY `change%` * 1 DESC;
--- (Positive percent is bad, Negative is good) 
+ORDER BY country;
