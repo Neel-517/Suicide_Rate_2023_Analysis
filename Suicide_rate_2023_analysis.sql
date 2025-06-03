@@ -59,4 +59,4 @@ SELECT country, `All` AS `2023`, `2000`, CONCAT(`change%`, '%') AS `change%`
 FROM world_suicide_rate_2023
 WHERE country != 'world' 
 ORDER BY `change%` * 1 DESC;
--- (Postive percent is bad, Negative is good) 
+-- (Positive percent is bad, Negative is good) 
