@@ -3,6 +3,7 @@ Suicide Rates 2023 data exploration
 
 Skills used: Aggregate Functions, Sorting, Limits, Filtering, SELECT Statements, ORDER BY, Column Aliasing, Case use 
 
+*\
 
 -- Viewing entire data 
 
