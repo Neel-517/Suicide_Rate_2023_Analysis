@@ -2,10 +2,10 @@
 
 ## [Tableau Dashboard](https://public.tableau.com/shared/B728QY66Z?:display_count=n&:origin=viz_share_link)
 ## **Dataset**
-### [Dataset (Website)](https://www.kaggle.com/datasets/armanzhalgasbayev/world-countries-rankings-by-suicide-rate-2023)
+### [Dataset (Kaggle)](https://www.kaggle.com/datasets/armanzhalgasbayev/world-countries-rankings-by-suicide-rate-2023)
 ### [Dataset](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/ae02680cd0fbb8c03e9cdc298d4b5f71d6e99634/world_suicide_rate_2023.csv)
 
-## **Project**
+## **Project Overview**
 This analysis explores suicide rates from each country per 100k population, age-standardized. The dataset is provided by the World Health Organization (WHO). The objective is to raise awareness and highlight disparities and trends.
 
 ## **Screenshot**
