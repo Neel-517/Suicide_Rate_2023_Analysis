@@ -7,7 +7,7 @@
 This analysis explores suicide rates from each country per 100k population, age-standardized. The dataset is provided by the World Health Organization (WHO). The objective is to raise awareness and highlight disparities and trends.
 
 ## **Screenshot**
-![image alt](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/0e8f4d26bf9d2fd2740c773c3c065d585d84a336/Screenshot/Dashbroad.png)
+![image alt]()
 
 ## **Insights**
 ### **Top 10 countries with the highest male suicide rates (per 100k)** 
