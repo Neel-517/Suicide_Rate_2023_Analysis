@@ -24,7 +24,7 @@ ORDER BY female DESC
 LIMIT 10;
 
 
--- 3. Top 10 countries with highest combined suicide rates
+-- 3. Top 10 countries with the highest combined suicide rates
 
 SELECT country, `all` FROM world_suicide_rate_2023
 ORDER BY `all` DESC
@@ -39,10 +39,10 @@ ORDER BY `M/F` DESC
 LIMIT 10;
 
 
--- 5. Average suicide rates globally from males and females combined
+-- 5. Average suicide rates globally for males and females combined
 
 SELECT country AS 'combined', CONCAT(ROUND((male / (male + female)) * 100, 1), '%') AS male_percentage, CONCAT(ROUND((female / (male + female)) * 100, 1), '%') AS female_percentage
-FROM world_suicide_rate_2023
+FROM world_suicide_rate_2023;
 
 
 -- 6. Countries that have an increase or decrease in the percentage of suicide rates percentage
@@ -64,4 +64,11 @@ WHEN `All` > `2000` THEN 'Negative'
 WHEN `All` < `2000` THEN 'Positive'
 ELSE 'No Change'
 END AS Trend
-FROM world_suicide_rate_2023`suicide_rates2023`
+FROM world_suicide_rate_2023`suicide_rates2023`;
+
+
+-- 8. Continents with the highest overall, male, and female suicide rates
+
+SELECT Continent, ROUND(AVG(`All`), 2) AS `All`,ROUND(AVG(Male), 2) AS Average_Male_Rate, ROUND(AVG(Female), 2) AS Average_Female_Rate
+FROM world_suicide_rate_2023
+GROUP BY Continent;
