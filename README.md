@@ -1,6 +1,6 @@
 # Suicide Rate 2023 Analysis
 
-## [Tableau Dashboard](https://public.tableau.com/shared/B728QY66Z?:display_count=n&:origin=viz_share_link)
+## [Tableau Dashboard](https://public.tableau.com/views/Book2_17550526207260/SuicideRates2023?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## [**Dataset**](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/94cb9b6aa4f606ce0e0361b51742ea12df98c2c7/world_suicide_rate_2023.csv)
 
 ## **Project Overview**
