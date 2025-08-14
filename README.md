@@ -66,4 +66,14 @@ Rank | Country| Rate
 9 | Moldova | 6.7
 10 | Slovakia | 6.5
 
+### **Continents with the highest overall, male, and female suicide rates** 
+Continent | All | Male | Female
+:---:|:---:|:---:|:---:|
+North America	|5.6	| 9	| 2.39
+Europe	| 10.9	| 16.51	| 4.36
+Asia	|6.7	| 10.02	| 3.39
+South America |	8.76	| 13.99	| 3.95
+Africa	|11.45	| 18.42	| 5.47
+Oceania	| 15.17	|24.07	| 6.37
+
 ## **Suggestions**
