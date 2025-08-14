@@ -69,6 +69,6 @@ FROM world_suicide_rate_2023`suicide_rates2023`;
 
 -- 8. Continents with the highest overall, male, female, and male-to-female ratio suicide rates
 
-SELECT Continent, ROUND(AVG(`All`), 2) AS `All`,ROUND(AVG(Male), 2) AS Average_Male_Rate, ROUND(AVG(Female), 2) AS Average_Female_Rate, ROUND(AVG(`M/F`), 2) AS Average_male_to_female_ratio
+SELECT Continent, ROUND(AVG(`All`), 2) AS `All`,ROUND(AVG(Male), 2) AS Male, ROUND(AVG(Female), 2) AS Female, ROUND(AVG(`M/F`), 2) AS male_to_female_ratio
 FROM world_suicide_rate_2023
 GROUP BY Continent;
