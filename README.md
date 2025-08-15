@@ -4,18 +4,21 @@
 ## [**Dataset**](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/94cb9b6aa4f606ce0e0361b51742ea12df98c2c7/world_suicide_rate_2023.csv)
 
 ## **Project Overview**
-This analysis explores suicide rates from each country per 100k population, age-standardized. The dataset is provided by the World Health Organization (WHO). The objective is to raise awareness and highlight disparities and trends.
+This analysis explores suicide rates from each country per 100k population, age-standardized. The dataset is provided by the World Health Organization (WHO). 
+The dashboard contains two filters: **Country** and **Continent**. 
+
+<br>The objective is to raise awareness and highlight disparities and trends.
 
 ## **Screenshot**
-![image alt](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/94b0ea31d260aa62ad3d6181f52c354e1515b06b/Screenshot/Dashboard.png)
+![image alt](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/b245c3f9576a5eb21e40c8457b6ef2ed0035b0ef/Screenshot/Dashboard.png)
 
 ## **Insights**
 ### **Top 10 countries with the highest male suicide rates (per 100k)** 
 Rank | Country| Rate 
 :---:|:---:|:---:
 1 | Kiribati | 53.6
-2 |Micronesia | 44.3
-3 |Mozambique | 42.6
+2 | Micronesia | 44.3
+3 | Mozambique | 42.6
 4 | Suriname | 41.3
 5 | Central African Republic | 39.6
 6 | Russia | 38.2
@@ -69,11 +72,11 @@ Rank | Country| Rate
 ### **Continents with the highest overall, male, female, and male-to-female ratio suicide rates** 
 Continent | All | Male | Female | Male-to-female-ratio
 :---:|:---:|:---:|:---:|:---:|
-North America	|5.6	| 9	| 2.39 | 4.02
+North America	| 5.6	| 9	| 2.39 | 4.02
 Europe	| 10.9	| 16.51	| 4.36 | 3.96
-Asia	|6.7	| 10.02	| 3.39 | 3.48
+Asia	| 6.7	| 10.02	| 3.39 | 3.48
 South America |	8.76	| 13.99	| 3.95 | 3.65
-Africa	|11.45	| 18.42	| 5.47 | 3.61
+Africa	| 11.45	| 18.42	| 5.47 | 3.61
 Oceania	| 15.17	|24.07	| 6.37 | 4.17
 
 ## **Suggestions**
