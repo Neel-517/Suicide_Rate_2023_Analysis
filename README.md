@@ -4,10 +4,16 @@
 ## [**Dataset**](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/94cb9b6aa4f606ce0e0361b51742ea12df98c2c7/world_suicide_rate_2023.csv)
 
 ## **Project Overview**
-This analysis explores suicide rates from each country per 100k population, age-standardized. The dataset is provided by the World Health Organization (WHO). 
-The dashboard contains two filters: **Country** and **Continent**. 
+This analysis explores suicide rates from each country per 100k population, age-standardized. The dataset is provided by the World Health Organization (WHO). This dashboard includes:
+- A map displaying each country.
+- The average suicide rates for males and females.
+- The male-to-female suicide rate ratio.
+- The percentage change in suicide rates from 2000 to 2023.
+- A comparison of suicide rates in 2000 versus 2023 for each country.
 
-<br>The objective is to raise awareness and highlight disparities and trends.
+The dashboard contains two filters: **Country** & **Continent**.
+
+The objective is to raise awareness and highlight disparities and trends.
 
 ## **Screenshot**
 ![image alt](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/b245c3f9576a5eb21e40c8457b6ef2ed0035b0ef/Screenshot/Dashboard.png)
