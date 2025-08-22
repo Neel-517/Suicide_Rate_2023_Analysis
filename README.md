@@ -16,7 +16,7 @@ The dashboard contains two filters: **Country** & **Continent**.
 The objective is to raise awareness and highlight disparities and trends.
 
 ## **Screenshot**
-![image alt](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/06d9fb5a00089ca697cdb501c7a7b98aecf94dff/Screenshot/Dashboard.png)
+![image alt](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/deb08f916ed1f6d7cfabae425820d9dd4eacdcee/Screenshot/Dashboard.png)
 
 ## **Insights**
 ### **Top 10 countries with the highest male suicide rates (per 100k)** 
