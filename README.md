@@ -10,8 +10,9 @@ This analysis explores suicide rates from each country per 100k population, age-
 - The male-to-female suicide rate ratio.
 - The percentage change in suicide rates from 2000 to 2023.
 - A comparison of suicide rates in 2000 versus 2023 for each country.
+- A top 10 list showing the countries with the highest rates, based on the selected category.
 
-The dashboard contains two filters: **Country** & **Continent**.
+The dashboard contains three filters: **Country**, **Continent** & **Select Data** (Allows viewing of different data).
 
 The objective is to raise awareness and highlight disparities and trends.
 
@@ -19,6 +20,20 @@ The objective is to raise awareness and highlight disparities and trends.
 ![image alt](https://github.com/Neel-517/Suicide_Rate_2023_Analysis/blob/87ed935281dcc944f246516eb8007c9e7348e446/Screenshot/Dashboard.png)
 
 ## **Insights**
+### **Top 10 countries with the highest combined suicide rates (per 100k)** 
+Rank | Country| Rate 
+:---:|:---:|:---:
+1 | Lithuania | 48.5
+2 | Kiribati | 30.6
+3 | Micronesia | 29
+4 | Suriname | 25.9
+5 | Zimbabwe | 23.6
+6 | South Africa | 23.5
+7 | Mozambique | 23.2
+8 | Central African Republic | 23
+9 | Russia | 21.6
+10 | South Korea |21.2
+
 ### **Top 10 countries with the highest male suicide rates (per 100k)** 
 Rank | Country| Rate 
 :---:|:---:|:---:
@@ -47,19 +62,7 @@ Rank | Country| Rate
 9 | Vanuatu | 9
 10 | Mozambique | 8.9
 
-### **Top 10 countries with the highest combined suicide rates (per 100k)** 
-Rank | Country| Rate 
-:---:|:---:|:---:
-1 | Lithuania | 48.5
-2 | Kiribati | 30.6
-3 | Micronesia | 29
-4 | Suriname | 25.9
-5 | Zimbabwe | 23.6
-6 | South Africa | 23.5
-7 | Mozambique | 23.2
-8 | Central African Republic | 23
-9 | Russia | 21.6
-10 | South Korea |21.2
+
 
 ### **Top 10 countries with the highest male-to-female suicide rate ratio (per 100k)** 
 Rank | Country| Rate 
